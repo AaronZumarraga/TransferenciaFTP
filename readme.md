@@ -112,14 +112,14 @@ Archivo revisado enviado correctamente al servidor FTP.
 
 Se utiliza un servidor **FileZilla FTP** para manejar la transferencia de archivos entre los sistemas. Asegúrate de tener configurados los siguientes **virtual paths** en el servidor:
 
-- **/prueba**: Mapea a `C:\Users\AarónZumárraga\Downloads\IS_seguros_globales-main\IS_seguros_globales-main`
-- **/uploaded**: Mapea a `C:\Users\AarónZumárraga\Downloads\IS_consultora-main\IS_consultora-main\filesToReview`
+- **/prueba**: Mapea a `\Downloads\IS_seguros_globales-main\IS_seguros_globales-main`
+- **/uploaded**: Mapea a `\Downloads\IS_consultora-main\IS_consultora-main\filesToReview`
 
 ### **Configuración de FileZilla**
 
 1. **Agregar Virtual Paths**:
-   - `/prueba` → `C:\Users\AarónZumárraga\Downloads\IS_seguros_globales-main\IS_seguros_globales-main`
-   - `/uploaded` → `C:\Users\AarónZumárraga\Downloads\IS_consultora-main\IS_consultora-main\filesToReview`
+   - `/prueba` → `\Downloads\IS_seguros_globales-main\IS_seguros_globales-main`
+   - `/uploaded` → `\Downloads\IS_consultora-main\IS_consultora-main\filesToReview`
 
 2. **Credenciales**:
    - Usuario: `prueba`
