@@ -1,0 +1,25 @@
+{
+  "name": "segurosglobales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.46",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3"
+  }
+}
